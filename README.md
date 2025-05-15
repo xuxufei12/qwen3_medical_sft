@@ -82,7 +82,8 @@ python app.py
 
 训练过程中 loss 曲线如下：
 
-![train_loss](train_loss_curve.png)
+![图片说明](./train_loss_curve.png)
+
 
 > 💡 本人实验中发现，loss 呈现**阶梯式下降趋势**，表现出**明显的过拟合现象**。由于数据集较小，全参数微调仅适合进行 **1 个 epoch 的训练**，否则会导致性能下降。
 
